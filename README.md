@@ -25,6 +25,11 @@ We resolved two critical launch blocks that were preventing the application from
 2. **16KB Page Size Compatibility**: Updated the ONNX Runtime dependency to version `1.22.0` and CameraX version to `1.4.0` in [build.gradle.kts](file:///Users/bipin/Downloads/object-detector-android-yolo/app/build.gradle.kts) to ensure native `.so` files are compiled with 16KB page-alignment boundaries.
 3. **80-Class COCO Labels**: Configured [labels.txt](file:///Users/bipin/Downloads/object-detector-android-yolo/app/src/main/assets/labels.txt) with the full set of standard COCO classes (cat, dog, tv, etc.) to support proper labeling of all detected objects instead of generic class indexes.
 
+### System Architecture Infographic
+The following diagram illustrates the data flow of our real-time object detection pipeline:
+
+![System Architecture](evidence/system_architecture.png)
+
 ---
 
 ## Validation Evidence
