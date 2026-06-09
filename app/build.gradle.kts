@@ -74,14 +74,14 @@ dependencies {
  implementation("androidx.constraintlayout:constraintlayout:2.2.0")
 
  // CameraX (if you're using YOLO / camera pipeline)
- val cameraxVersion = "1.3.4"
+ val cameraxVersion = "1.4.0"
  implementation("androidx.camera:camera-core:$cameraxVersion")
  implementation("androidx.camera:camera-camera2:$cameraxVersion")
  implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
  implementation("androidx.camera:camera-view:$cameraxVersion")
 
  // ONNX Runtime for inference
- implementation("com.microsoft.onnxruntime:onnxruntime-android:1.18.0")
+ implementation("com.microsoft.onnxruntime:onnxruntime-android:1.22.0")
 
  testImplementation("junit:junit:4.13.2")
  androidTestImplementation("androidx.test.ext:junit:1.2.1")
