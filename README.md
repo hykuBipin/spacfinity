@@ -1,6 +1,18 @@
-# Object Detector Android YOLO
+# Object Detector Android YOLO (Spacefinity)
 
 A real-time object detection Android application using the YOLOv8 Nano model via ONNX Runtime and CameraX.
+
+---
+
+## 🚀 Meet Spacefinity & Its Custom Logo
+
+The application is branded as **Spacefinity**. It features a custom logo: a sleek infinity loop representation on a dark cosmic background. The loop represents the infinite loop of live frames processed in real-time by the neural network.
+
+Here is the app successfully compiled and installed, displaying its custom logo on the emulator home screen:
+
+![Spacefinity App Installed & Logo](evidence/app_installed.png)
+
+---
 
 ## Architecture Fixes & Updates
 
