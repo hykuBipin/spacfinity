@@ -1,5 +1,9 @@
 # Object Detector Android YOLO (Spacefinity)
 
+<p align="center">
+  <img src="evidence/spacefinity_logo.png" alt="Spacefinity Logo" width="150" />
+</p>
+
 A real-time object detection Android application using the YOLOv8 Nano model via ONNX Runtime and CameraX.
 
 ---
