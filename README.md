@@ -13,10 +13,14 @@ We resolved two critical launch blocks that were preventing the application from
 
 ## Validation Evidence
 
-### 1. Cat Detection in Emulator (Living Room)
+### 1. Spacefinity App Permission Screen
+Successfully started the application and requested camera permission:
+![Permission Screen](evidence/app_permission_screen.png)
+
+### 2. Cat Detection in Emulator (Living Room)
 Successfully detected the virtual cat model on the rug:
 ![Cat Detection](evidence/cat_detection_success.png)
 
-### 2. Multi-Object Detection in Emulator (Kitchen)
+### 3. Multi-Object Detection in Emulator (Kitchen)
 Successfully detected the virtual dog, refrigerator, and oven in the kitchen area:
 ![Kitchen Detection](evidence/kitchen_detection_success.png)
