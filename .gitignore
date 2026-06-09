@@ -1,0 +1,15 @@
+# Android Studio / Gradle Build Outputs
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Python Virtual Environment
+venv/
+
+# Local model copy in root (keep assets/yolov8n.onnx, but ignore root pt and onnx)
+/*.onnx
+/*.pt
